@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover comfort, dining and warm hospitality at Royal Crown Hotel, Khadkwadi, Pune.">
+  <title>Royal Crown Hotel | Pune</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="hero" id="home">
+  <nav class="navbar">
+    <a class="logo" href="#home">♛ Royal Crown</a>
+    <div class="nav-links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#rooms">Rooms</a><a href="#dining">Dining</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <div class="hero-content">
+    <p class="eyebrow">WELCOME TO ROYAL CROWN</p>
+    <h1>Luxury, Comfort<br><span>& Royal Hospitality</span></h1>
+    <p class="hero-text">A beautiful stay, thoughtful service, and memorable moments in Pune.</p>
+    <a class="button" href="#contact">Plan Your Stay</a>
+  </div>
+  <div class="hero-badge"><strong>★★★★★</strong><span>A royal experience</span></div>
+</header>
+<main>
+  <section class="intro section" id="about">
+    <div class="intro-image"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1100&q=85" alt="Luxury hotel with swimming pool"></div>
+    <div class="intro-copy">
+      <p class="eyebrow">A WARM WELCOME</p><h2>Where every stay<br>feels special</h2>
+      <p>Discover a relaxing place to unwind, celebrate, and enjoy warm hospitality. Royal Crown Hotel combines elegant surroundings with comfortable spaces and attentive service.</p>
+      <div class="features">
+        <div><span>✦</span><p><b>Elegant Rooms</b><small>Comfort made for you</small></p></div>
+        <div><span>✦</span><p><b>Delicious Dining</b><small>Flavours for every mood</small></p></div>
+        <div><span>✦</span><p><b>Friendly Service</b><small>Care in every detail</small></p></div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms section" id="rooms">
+    <div class="section-heading"><p class="eyebrow">STAY IN STYLE</p><h2>Our Rooms & Suites</h2><p>Choose your comfort. Sample room categories and prices are shown below.</p></div>
+    <div class="card-grid">
+      <article class="room-card"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=85" alt="Deluxe hotel room"><div class="card-content"><span class="tag">COMFORT</span><h3>Deluxe Room</h3><p>A calm, stylish room for a comfortable getaway.</p><div class="price">₹2,499 <small>/ night*</small></div></div></article>
+      <article class="room-card"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=85" alt="Premium hotel room"><div class="card-content"><span class="tag">POPULAR</span><h3>Premium Room</h3><p>Extra space and thoughtful details for your stay.</p><div class="price">₹3,499 <small>/ night*</small></div></div></article>
+      <article class="room-card"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85" alt="Luxury suite living area"><div class="card-content"><span class="tag">LUXURY</span><h3>Royal Suite</h3><p>A spacious retreat for a special occasion.</p><div class="price">₹5,999 <small>/ night*</small></div></div></article>
+    </div>
+    <p class="note">*Sample prices for website demonstration only. Confirm actual rates and availability directly with the hotel.</p>
+  </section>
+  <section class="dining section" id="dining">
+    <div class="dining-copy"><p class="eyebrow">A TASTE TO REMEMBER</p><h2>Good food.<br>Great moments.</h2><p>Enjoy a welcoming dining experience with Indian favourites, fresh vegetarian choices, and dishes for sharing with family and friends.</p><ul><li>Indian & Maharashtrian favourites</li><li>Vegetarian options</li><li>Family-friendly dining</li></ul><a class="button button-dark" href="#contact">Ask About Dining</a></div>
+    <div class="dining-image"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85" alt="Elegant restaurant dining table"></div>
+  </section>
+  <section class="amenities section"><div class="section-heading"><p class="eyebrow">THOUGHTFUL DETAILS</p><h2>Made for your comfort</h2></div>
+    <div class="amenity-grid">
+      <div class="amenity"><span>⌂</span><h3>Comfortable Stay</h3><p>Relax in thoughtfully designed spaces.</p></div>
+      <div class="amenity"><span>♨</span><h3>Dining Options</h3><p>Food choices for different tastes.</p></div>
+      <div class="amenity"><span>✧</span><h3>Event Enquiries</h3><p>Ask us about small gatherings and celebrations.</p></div>
+      <div class="amenity"><span>♡</span><h3>Personal Service</h3><p>A friendly team to help with your needs.</p></div>
+    </div><p class="note">Amenities listed here are illustrative. Update this section to match actual facilities.</p>
+  </section>
+  <section class="contact section" id="contact">
+    <div class="contact-info"><p class="eyebrow">GET IN TOUCH</p><h2>Let’s plan your<br>royal stay.</h2><p>For room enquiries, dining questions, or general information, contact us.</p>
+      <div class="contact-line"><span>☎</span><div><small>PHONE</small><a href="tel:+918669687712">+91 86696 87712</a></div></div>
+      <div class="contact-line"><span>✉</span><div><small>EMAIL</small><a href="mailto:tupevaishnavi20@gmail.com">tupevaishnavi20@gmail.com</a></div></div>
+      <div class="contact-line"><span>⌖</span><div><small>ADDRESS</small><p>Khadkwadi, Pune, Maharashtra 411023</p></div></div>
+      <a class="button whatsapp" target="_blank" rel="noopener" href="https://wa.me/918669687712?text=Hello%20Royal%20Crown%20Hotel%2C%20I%20would%20like%20to%20enquire.">Chat on WhatsApp</a>
+    </div>
+    <form class="contact-form" action="{{ url_for('enquiry') }}" method="post">
+      <h3>Send an Enquiry</h3>
+      {% with messages = get_flashed_messages(with_categories=true) %}{% if messages %}{% for category, message in messages %}<div class="notice {{ category }}">{{ message }}</div>{% endfor %}{% endif %}{% endwith %}
+      <label for="name">Your name *</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+      <label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="Enter your email" required>
+      <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" placeholder="Enter your phone number">
+      <label for="subject">Enquiry type</label><select id="subject" name="subject"><option>Room booking</option><option>Dining</option><option>Event enquiry</option><option>General enquiry</option></select>
+      <label for="message">Message *</label><textarea id="message" name="message" rows="4" placeholder="Your question or preferred dates..." required></textarea>
+      <button class="button button-dark" type="submit">Send Enquiry</button>
+      <p class="form-note">Your enquiry is saved in the website database. Email notifications work after the owner configures SMTP settings.</p>
+    </form>
+  </section>
+</main>
+<footer><a class="logo" href="#home">♛ Royal Crown</a><p>© {{ current_year if current_year else 2026 }} Royal Crown Hotel. Website concept for demonstration.</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
